@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">KonverterVoice</string>
+    <string name="m_gliche_umwandlungen_n_euro_dollar_n_celsius_fahrenheit_n_liter_100km_mpg_n_meter_fu_n_kilogram_pfund_n">
+        <![CDATA[Mögliche Umwandlungen: \n Euro <-> Dollar \n Celsius <-> Fahrenheit\n Liter/100km <-> MPG\n Meter <-> Fuß\n Kilogram <-> Pfund\n]]></string>
+    <string name="euro_dollar_nkilogram_pfund_ncelsius_fahrenheit_nkilometer_meilen_nmeter_fu_nliter_100km_meilen_gallone">
+        <![CDATA[Euro <-> Dollar \nKilogram <-> Pfund\nCelsius <-> Fahrenheit\nKilometer <-> Meilen\nMeter <-> Fuß\nLiter/100km <-> Meilen/Gallone]]></string>
+</resources>

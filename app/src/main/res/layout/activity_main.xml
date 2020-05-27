@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+android:background="@drawable/konverterbg">
+
+    <Button
+            android:text="Was soll umgewandelt werden?"
+            android:layout_width="288dp"
+            android:layout_height="88dp" android:id="@+id/btn_activateVpice"
+            style="@android:style/Widget.Holo.Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.373" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="336dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/tv_result"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:textSize="36sp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_activateVpice" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.243"
+            app:layout_constraintVertical_bias="0.254"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display3"/>
+    <TextView
+            android:text="Voice Converter"
+            android:layout_width="wrap_content"
+            android:textSize="45sp"
+            android:layout_height="wrap_content" android:id="@+id/textView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="16dp"/>
+    <TextView
+            android:text="Mögliche Umwandlungen"
+            android:layout_width="wrap_content"
+            android:textSize="22sp"
+            android:layout_height="wrap_content" android:id="@+id/tv_description"
+            app:layout_constraintTop_toBottomOf="@+id/textView" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginTop="40dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            app:layout_constraintBottom_toTopOf="@+id/btn_activateVpice" app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.285"/>
+    <TextView
+            android:text="@string/euro_dollar_nkilogram_pfund_ncelsius_fahrenheit_nkilometer_meilen_nmeter_fu_nliter_100km_meilen_gallone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_description" app:layout_constraintHorizontal_bias="0.216"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
